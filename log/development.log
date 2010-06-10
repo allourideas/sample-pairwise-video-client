@@ -1,0 +1,1607 @@
+
+
+Processing Rails::InfoController#properties (for 192.168.1.9 at 2010-06-07 15:58:48) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 67ms (View: 9, DB: 1) | 200 OK [http://axp/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 192.168.1.9 at 2010-06-07 15:59:48) [GET]
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 17ms (View: 2, DB: 0) | 200 OK [http://axp/rails/info/properties]
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:01:35) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:26:19) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:26:20) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:26:25) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:27:08) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:27:09) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:27:43) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:27:44) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:34:52) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#index (for 192.168.1.9 at 2010-06-07 18:34:56) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: hello):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 18:35:01) [GET]
+
+ActionView::MissingTemplate (Missing template main/hello.erb in view path app/views):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing Rails::InfoController#properties (for 192.168.1.9 at 2010-06-07 18:36:03) [GET]
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 24ms (View: 3, DB: 1) | 200 OK [http://axp/rails/info/properties]
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 19:08:23) [GET]
+Rendering main/hello
+ERROR: compiling _run_haml_app47views47main47hello46haml RAISED compile error
+/home/ddg/dev/apitest-6.7/app/views/main/hello.haml:6: syntax error, unexpected ',', expecting ')'
+.../body>\n  </head>\n</html>\n", -2, false);_erbout;ensure;@ha...
+                              ^
+/home/ddg/dev/apitest-6.7/app/views/main/hello.haml:6: syntax error, unexpected kENSURE, expecting '}'
+...\n", -2, false);_erbout;ensure;@haml_buffer = @haml_buffer.u...
+                              ^
+/home/ddg/dev/apitest-6.7/app/views/main/hello.haml:6: syntax error, unexpected kEND, expecting '}'
+...uffer = @haml_buffer.upper;end;
+                              ^
+/home/ddg/dev/apitest-6.7/app/views/main/hello.haml:9: syntax error, unexpected kEND, expecting '}'
+Function body:           def _run_haml_app47views47main47hello46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:attr_wrapper=>"'", :escape_html=>false, :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false, :format=>:xhtml, :encoding=>nil, :preserve=>["textarea", "pre", "code"]});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n", 0, false);
+_hamlout.open_tag("html", false, false, false, false, {}, false, false, nil, nil, :xmlns => "http://www.w3.org/1999/xhtml", :'xml:lang' => "en", :lang => "en");_hamlout.push_text("  <head>\n    <title>Hello rails!</title>\n    <body>#{
+
+
+_hamlout.adjust_tabs(2); _hamlout.format_script_false_true_false_false_false_true_false(("This is much less horrible than ERB at #{@time}
+));}</body>\n  </head>\n</html>\n", -2, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/ddg/dev/apitest-6.7/app/views/main/hello.haml:9:in `compile!'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render_without_haml'
+/var/lib/gems/1.8/gems/haml-3.0.9/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/var/lib/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/var/lib/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/var/lib/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/var/lib/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130
+/var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/var/lib/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/var/lib/gems/1.8/gems/haml-3.0.9/rails/../lib/sass/plugin/rack.rb:41:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/var/lib/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/var/lib/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/var/lib/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/var/lib/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/var/lib/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/ddg/dev/apitest-6.7/app/views/main/hello.haml:6: syntax error, unexpected ',', expecting ')'
+.../body>\n  </head>\n</html>\n", -2, false);_erbout;ensure;@ha...
+                              ^
+/home/ddg/dev/apitest-6.7/app/views/main/hello.haml:6: syntax error, unexpected kENSURE, expecting '}'
+...\n", -2, false);_erbout;ensure;@haml_buffer = @haml_buffer.u...
+                              ^
+/home/ddg/dev/apitest-6.7/app/views/main/hello.haml:6: syntax error, unexpected kEND, expecting '}'
+...uffer = @haml_buffer.upper;end;
+                              ^
+/home/ddg/dev/apitest-6.7/app/views/main/hello.haml:9: syntax error, unexpected kEND, expecting '}') on line #6 of app/views/main/hello.haml:
+3:   %head
+4:     %title Hello rails!
+5:     %body= "This is much less horrible than ERB at #{@time}
+
+    app/views/main/hello.haml:9:in `compile!'
+    haml (3.0.9) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (57.8ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainController#hello (for 192.168.1.9 at 2010-06-07 19:08:48) [GET]
+Rendering main/hello
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://axp/main/hello]
+
+
+Processing MainController#hello (for 192.168.1.10 at 2010-06-07 19:57:43) [GET]
+Rendering main/hello
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://axp/main/hello]
+
+
+Processing ApplicationController#index (for 192.168.1.9 at 2010-06-09 14:35:34) [GET]
+
+ActionController::RoutingError (No route matches "/question" with {:method=>:get}):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:35:37) [GET]
+Rendering questions/index
+
+ActionView::TemplateError (undefined local variable or method `name' for #<ActionView::Base:0xb68b3844>) on line #10 of app/views/questions/index.haml:
+7:     %h1 Questions
+8:     %ul
+9:       - @questions.each do |q|
+10:         %li= q.attributes[name]
+
+    app/views/questions/index.haml:10:in `_run_haml_app47views47questions47index46haml'
+    app/views/questions/index.haml:9:in `each'
+    app/views/questions/index.haml:9:in `_run_haml_app47views47questions47index46haml'
+    haml (3.0.9) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.3ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:35:54) [GET]
+Rendering questions/index
+Completed in 265ms (View: 10, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:38:13) [GET]
+Rendering questions/index
+Completed in 164ms (View: 10, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:39:29) [GET]
+Rendering questions/index
+Completed in 276ms (View: 10, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:40:34) [GET]
+Rendering questions/index
+Completed in 160ms (View: 9, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:41:10) [GET]
+Rendering questions/index
+Completed in 274ms (View: 9, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:42:21) [GET]
+Rendering questions/index
+Completed in 159ms (View: 10, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:44:22) [GET]
+Rendering questions/index
+Completed in 380ms (View: 119, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:44:33) [GET]
+Rendering questions/index
+Completed in 152ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:46:13) [GET]
+Rendering questions/index
+Completed in 275ms (View: 11, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 14:46:42) [GET]
+Rendering questions/index
+Completed in 160ms (View: 11, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:12:31) [GET]
+Rendering questions/new
+Completed in 29ms (View: 26, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:29:07) [GET]
+Rendering questions/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:29:14) [POST]
+  Parameters: {"authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"What up what up!"}}
+Rendering questions/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:31:33) [POST]
+  Parameters: {"authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"What up what up!"}}
+Rendering questions/new
+
+ActionView::TemplateError (undefined local variable or method `submit' for #<ActionView::Base:0xb6a40c98>) on line #11 of app/views/questions/new.haml:
+8:       %p
+9:         = f.label :name, "Name:"
+10:         = f.text_field :name, :size => 40
+11:         = submit_tag "Press Button", :class => submit
+
+    app/views/questions/new.haml:11
+    haml (3.0.9) rails/./lib/haml/helpers/action_view_mods.rb:225:in `call'
+    haml (3.0.9) rails/./lib/haml/helpers/action_view_mods.rb:225
+    haml (3.0.9) lib/haml/helpers.rb:588:in `call'
+    haml (3.0.9) lib/haml/helpers.rb:588:in `haml_bind_proc'
+    haml (3.0.9) rails/./lib/haml/helpers/action_view_mods.rb:231:in `form_for'
+    app/views/questions/new.haml:7:in `_run_haml_app47views47questions47new46haml'
+    haml (3.0.9) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:31:59) [GET]
+Rendering questions/new
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:32:02) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>""}}
+Rendering questions/new
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:32:29) [GET]
+Rendering questions/new
+
+ActionView::TemplateError (Illegal element: classes and ids must have values.) on line #11 of app/views/questions/new.haml:
+8:       %p
+9:         = f.label :name, "Name:"
+10:         = f.text_field :name, :size => 40
+11:       .
+12:         = submit_tag "Press Button"
+
+    app/views/questions/new.haml:11
+    haml (3.0.9) lib/haml/precompiler.rb:706:in `render_tag'
+    haml (3.0.9) lib/haml/precompiler.rb:837:in `render_div'
+    haml (3.0.9) lib/haml/precompiler.rb:210:in `process_line'
+    haml (3.0.9) lib/haml/precompiler.rb:178:in `precompile'
+    haml (3.0.9) lib/haml/engine.rb:121:in `initialize'
+    haml (3.0.9) rails/./lib/haml/template/plugin.rb:29:in `new'
+    haml (3.0.9) rails/./lib/haml/template/plugin.rb:29:in `compile'
+    haml (3.0.9) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (184.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:32:54) [GET]
+Rendering questions/new
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:36:28) [GET]
+Rendering questions/new
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:36:55) [GET]
+Rendering questions/new
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:37:32) [GET]
+Rendering questions/new
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:37:46) [GET]
+Rendering questions/new
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:38:03) [GET]
+Rendering questions/new
+Completed in 129ms (View: 127, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:44:02) [GET]
+Rendering questions/new
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 16:44:12) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"test2", "ideas"=>"blah1\r\nblah2"}}
+
+ActionView::MissingTemplate (Missing template questions/create.erb in view path app/views):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 16:45:52) [GET]
+
+ArgumentError (expected an attributes Hash, got nil):
+  app/controllers/questions_controller.rb:8:in `new'
+  app/controllers/questions_controller.rb:8:in `create'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (49.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 16:46:06) [GET]
+Rendering questions/index
+Completed in 293ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:46:14) [GET]
+Rendering questions/new
+Completed in 113ms (View: 5, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 16:46:21) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"test3", "ideas"=>"blah1\r\nblah2"}}
+
+NameError (undefined local variable or method `action' for #<QuestionsController:0xb6a53064>):
+  app/controllers/questions_controller.rb:10:in `create'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 16:46:38) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"test3", "ideas"=>"blah1\r\nblah2"}}
+Redirected to http://axp:3001/questions/%23%3CQuestion:0xb6882974%3E%23%3CQuestion:0xb6882924%3E%23%3CQuestion:0xb687a3a0%3E%23%3CQuestion:0xb686fae0%3E
+Completed in 717ms (DB: 0) | 302 Found [http://axp/questions/create]
+
+
+Processing QuestionsController##<Question:0xb6882974>#<Question:0xb6882924>#<Question:0xb687a3a0>#<Question:0xb686fae0> (for 192.168.1.9 at 2010-06-09 16:46:38) [GET]
+
+ActionController::UnknownAction (No action responded to #<Question:0xb6882974>#<Question:0xb6882924>#<Question:0xb687a3a0>#<Question:0xb686fae0>. Actions: create and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 16:46:53) [GET]
+Rendering questions/index
+Completed in 211ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:47:04) [GET]
+Rendering questions/new
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 16:47:12) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"test4", "ideas"=>"blah4\r\nblah4"}}
+Redirected to http://axp:3001/questions/%23%3CQuestion:0xb6865c84%3E%23%3CQuestion:0xb6865c34%3E%23%3CQuestion:0xb68234d8%3E%23%3CQuestion:0xb6a80384%3E%23%3CQuestion:0xb6a790e8%3E
+Completed in 847ms (DB: 0) | 302 Found [http://axp/questions/create]
+
+
+Processing QuestionsController##<Question:0xb6865c84>#<Question:0xb6865c34>#<Question:0xb68234d8>#<Question:0xb6a80384>#<Question:0xb6a790e8> (for 192.168.1.9 at 2010-06-09 16:47:13) [GET]
+
+ActionController::UnknownAction (No action responded to #<Question:0xb6865c84>#<Question:0xb6865c34>#<Question:0xb68234d8>#<Question:0xb6a80384>#<Question:0xb6a790e8>. Actions: create and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 16:47:35) [GET]
+Rendering questions/index
+Completed in 223ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 16:48:11) [GET]
+Rendering questions/new
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 16:48:22) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"test5", "ideas"=>"blah10\r\nblah20"}}
+Redirected to http://axp:3001/questions
+Completed in 391ms (DB: 0) | 302 Found [http://axp/questions/create]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 16:48:22) [GET]
+Rendering questions/index
+Completed in 485ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 17:52:20) [GET]
+Rendering questions/new
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 17:52:29) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"test6", "ideas"=>"auto\r\nactivate\r\nthese"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/controllers/questions_controller.rb:8:in `create'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 17:52:51) [GET]
+Rendering questions/new
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 17:52:59) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"test6", "ideas"=>"auto\r\nactivate\r\nthese"}}
+Redirected to http://axp:3001/questions
+Completed in 581ms (DB: 0) | 302 Found [http://axp/questions/create]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 17:52:59) [GET]
+Rendering questions/index
+Completed in 426ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 17:53:03) [GET]
+Rendering questions/index
+Completed in 586ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 17:53:04) [GET]
+Rendering questions/index
+Completed in 594ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 17:57:40) [GET]
+Rendering questions/new
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 17:57:53) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"test7", "ideas"=>"make\r\nthese\r\nautomatic"}}
+
+NoMethodError (undefined method `attributes' for {"name"=>"test7", "ideas"=>"make\r\nthese\r\nautomatic"}:HashWithIndifferentAccess):
+  app/controllers/questions_controller.rb:8:in `create'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:05:12) [GET]
+Rendering questions/index
+Completed in 288ms (View: 12, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:06:17) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://axp:3001/questions
+Completed in 296ms (DB: 0) | 302 Found [http://axp/questions/destroy/1]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:06:18) [GET]
+Rendering questions/index
+Completed in 288ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:06:21) [GET]
+Rendering questions/index
+Completed in 561ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:06:27) [GET]
+  Parameters: {"id"=>"2"}
+Redirected to http://axp:3001/questions
+Completed in 172ms (DB: 0) | 302 Found [http://axp/questions/destroy/2]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:06:27) [GET]
+Rendering questions/index
+Completed in 601ms (View: 25, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:06:31) [GET]
+Rendering questions/index
+Completed in 401ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:07:17) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://axp:3001/questions
+Completed in 453ms (DB: 0) | 302 Found [http://axp/questions/destroy/1]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:07:17) [GET]
+Rendering questions/index
+Completed in 387ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:07:23) [GET]
+  Parameters: {"id"=>"2"}
+Redirected to http://axp:3001/questions
+Completed in 427ms (DB: 0) | 302 Found [http://axp/questions/destroy/2]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:07:23) [GET]
+Rendering questions/index
+Completed in 495ms (View: 2, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:07:33) [GET]
+  Parameters: {"id"=>"3"}
+Redirected to http://axp:3001/questions
+Completed in 424ms (DB: 0) | 302 Found [http://axp/questions/destroy/3]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:07:33) [GET]
+Rendering questions/index
+Completed in 353ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:07:45) [GET]
+  Parameters: {"id"=>"7"}
+Redirected to http://axp:3001/questions
+Completed in 435ms (DB: 0) | 302 Found [http://axp/questions/destroy/7]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:07:45) [GET]
+Rendering questions/index
+Completed in 310ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:07:49) [GET]
+  Parameters: {"id"=>"8"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/questions_controller.rb:8:in `destroy'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (59.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:07:52) [GET]
+  Parameters: {"id"=>"6"}
+Redirected to http://axp:3001/questions
+Completed in 417ms (DB: 0) | 302 Found [http://axp/questions/destroy/6]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:07:52) [GET]
+Rendering questions/index
+Completed in 299ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:07:57) [GET]
+  Parameters: {"id"=>"3"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/questions_controller.rb:8:in `destroy'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (57.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:08:00) [GET]
+  Parameters: {"id"=>"4"}
+Redirected to http://axp:3001/questions
+Completed in 435ms (DB: 0) | 302 Found [http://axp/questions/destroy/4]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:08:00) [GET]
+Rendering questions/index
+Completed in 168ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:08:38) [GET]
+  Parameters: {"id"=>"8"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/questions_controller.rb:8:in `destroy'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (52.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:08:50) [GET]
+  Parameters: {"id"=>"8"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/questions_controller.rb:8:in `destroy'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (55.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:09:08) [GET]
+  Parameters: {"id"=>"8"}
+Redirected to http://axp:3001/questions
+Completed in 186ms (DB: 0) | 302 Found [http://axp/questions/destroy/8]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:09:08) [GET]
+Rendering questions/index
+Completed in 303ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 18:09:17) [GET]
+  Parameters: {"id"=>"5"}
+Redirected to http://axp:3001/questions
+Completed in 408ms (DB: 0) | 302 Found [http://axp/questions/destroy/5]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 18:09:17) [GET]
+Rendering questions/index
+Completed in 239ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing MainController#index (for 192.168.1.5 at 2010-06-09 18:32:52) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: hello):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#index (for 192.168.1.5 at 2010-06-09 18:33:09) [GET]
+Rendering questions/index
+Completed in 139ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#new (for 192.168.1.5 at 2010-06-09 18:35:16) [GET]
+Rendering questions/new
+Completed in 12ms (View: 6, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.5 at 2010-06-09 18:35:26) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"xZNwMjMdN4k5CxjyeauyrZ7T17VnvGb9PHguHfiwkd4=", "question"=>{"name"=>"test1", "ideas"=>"idea0\r\nidea1\r\nidea2"}}
+Redirected to http://axp:3001/questions
+Completed in 439ms (DB: 0) | 302 Found [http://axp/questions/create]
+
+
+Processing QuestionsController#index (for 192.168.1.5 at 2010-06-09 18:35:26) [GET]
+Rendering questions/index
+Completed in 168ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:38:24) [GET]
+Rendering questions/index
+Completed in 317ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:38:41) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:38:57) [GET]
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#1 (for 192.168.1.9 at 2010-06-09 21:39:06) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:39:20) [GET]
+Rendering questions/index
+Completed in 278ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:39:29) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ChoicesController#show (for 192.168.1.9 at 2010-06-09 21:40:31) [GET]
+  Parameters: {"question_id"=>"8", "id"=>"index"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/choices_controller.rb:10:in `show'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (182.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:40:40) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ChoicesController#show (for 192.168.1.9 at 2010-06-09 21:41:01) [GET]
+  Parameters: {"question_id"=>"8", "id"=>"0"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/choices_controller.rb:10:in `show'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:41:09) [GET]
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:43:03) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:45:08) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:45:16) [GET]
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:45:22) [GET]
+Rendering questions/index
+Completed in 160ms (View: 2, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:45:29) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 192.168.1.9 at 2010-06-09 21:46:01) [GET]
+
+ActionController::RoutingError (No route matches "/question/8/choices.html" with {:method=>:get}):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#8 to html (for 192.168.1.9 at 2010-06-09 21:46:13) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 21:46:33) [GET]
+
+ArgumentError (expected an attributes Hash, got nil):
+  app/controllers/questions_controller.rb:15:in `new'
+  app/controllers/questions_controller.rb:15:in `create'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (49.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 21:46:40) [GET]
+Rendering questions/new
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:47:42) [GET]
+Rendering questions/index
+Completed in 831ms (View: 127, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:47:48) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:47:56) [GET]
+Rendering questions/index
+Completed in 283ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing Rails::InfoController#properties (for 192.168.1.9 at 2010-06-09 21:48:03) [GET]
+  [4;36;1mSQL (9.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 65ms (View: 8, DB: 9) | 200 OK [http://axp/rails/info/properties]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:51:15) [GET]
+Rendering questions/index
+Completed in 159ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:51:23) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#8 (for 192.168.1.9 at 2010-06-09 21:51:31) [GET]
+
+ActionController::UnknownAction (No action responded to 8. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 21:51:40) [GET]
+  Parameters: {"id"=>"8"}
+Redirected to http://axp:3001/questions
+Completed in 425ms (DB: 0) | 302 Found [http://axp/questions/destroy/8]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:51:40) [GET]
+Rendering questions/index
+Completed in 244ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 21:51:45) [GET]
+Rendering questions/new
+Completed in 65ms (View: 62, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 21:51:59) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"testing", "ideas"=>"foo\r\nbar\r\nbaz"}}
+Redirected to http://axp:3001/questions
+Completed in 458ms (DB: 0) | 302 Found [http://axp/questions/create]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:52:00) [GET]
+Rendering questions/index
+Completed in 294ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#9 (for 192.168.1.9 at 2010-06-09 21:52:09) [GET]
+  Parameters: {"id"=>"choices"}
+
+ActionController::UnknownAction (No action responded to 9. Actions: create, destroy, and index):
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ChoicesController#index (for 192.168.1.9 at 2010-06-09 21:55:20) [GET]
+  Parameters: {"question_id"=>"9"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/choices_controller.rb:5:in `index'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (56.0ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 21:58:04) [GET]
+Rendering questions/index
+Completed in 282ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing ChoicesController#index (for 192.168.1.9 at 2010-06-09 21:59:54) [GET]
+  Parameters: {"question_id"=>"9"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/choices_controller.rb:5:in `index'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (172.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ChoicesController#index (for 192.168.1.9 at 2010-06-09 22:05:47) [GET]
+  Parameters: {"question_id"=>"9"}
+
+ActiveResource::ResourceNotFound (Failed with 404 Not Found ):
+  app/controllers/choices_controller.rb:5:in `index'
+  haml (3.0.9) rails/./lib/sass/plugin/rack.rb:41:in `call'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (54.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 22:08:31) [GET]
+Rendering questions/index
+Completed in 167ms (View: 1, DB: 0) | 200 OK [http://axp/questions/]
+
+
+Processing QuestionsController#destroy (for 192.168.1.9 at 2010-06-09 22:08:36) [GET]
+  Parameters: {"id"=>"9"}
+Redirected to http://axp:3001/questions
+Completed in 528ms (DB: 0) | 302 Found [http://axp/questions/destroy/9]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 22:08:37) [GET]
+Rendering questions/index
+Completed in 243ms (View: 1, DB: 0) | 200 OK [http://axp/questions]
+
+
+Processing QuestionsController#new (for 192.168.1.9 at 2010-06-09 22:08:40) [GET]
+Rendering questions/new
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://axp/questions/new]
+
+
+Processing QuestionsController#create (for 192.168.1.9 at 2010-06-09 22:08:48) [POST]
+  Parameters: {"commit"=>"Press Button", "authenticity_token"=>"vhYQpEFnkZfACRyJioL9945pzxkOKWRo4rgQO0fVfe4=", "question"=>{"name"=>"testing", "ideas"=>"foo\r\nbar\r\nbaz"}}
+Redirected to http://axp:3001/questions
+Completed in 433ms (DB: 0) | 302 Found [http://axp/questions]
+
+
+Processing QuestionsController#index (for 192.168.1.9 at 2010-06-09 22:08:48) [GET]
+Rendering questions/index
+Completed in 317ms (View: 1, DB: 0) | 200 OK [http://axp/questions]

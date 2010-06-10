@@ -1,0 +1,20 @@
+!!!
+%html
+  %head
+    %title API Test
+  %body
+    %h1 Questions
+    %table{:border => "1"}
+      %tr
+        %th Name
+        %th Updated At
+        %th # Active Items
+        %th # Votes
+        %th Id
+      - @questions.each do |q|
+        %tr
+          %td= q.attributes["name"]
+          %td= q.attributes["updated_at"]
+          %td= q.attributes["active_items_count"]
+          %td= q.attributes["votes_count"]
+          %td= q.attributes["id"]

@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title New Question
+  %body
+    %h1 Create a New Question
+    - form_for :question, :url => { :action => :create } do |f|
+      %p
+        = f.label 'name' , "Name:"
+        = f.text_field 'name', :size => 40
+      %p
+        = "Ideas:"
+        %br
+        = f.text_area 'ideas', :cos => 85, :rows => 12
+      %div
+        = submit_tag "Press Button"
