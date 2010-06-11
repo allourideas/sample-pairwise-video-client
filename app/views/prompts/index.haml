@@ -1,0 +1,21 @@
+%h1 Vote!
+#prompt-content
+  #prompt-left
+    %object{:width=>"200", :height=>"200"}
+      %param{:name=>"movie", :value=>@prompt.attributes['left_choice_text']}
+      %param{:name=>"allowFullScreen", :value=>"false"}
+      %param{:name=>"allowscriptaccess", :value=>"always"}
+      %embed{:src=>@prompt.attributes['left_choice_text'],
+             :type=>"application/x-shockwave-flash",
+             :allowscriptaccess=>"always", :allowfullscreen=>"false",
+             :width=>"200", :height=>"200"}
+  #prompt-right
+    %object{:width=>"200", :height=>"200"}
+      %param{:name=>"movie", :value=>@prompt.attributes['right_choice_text']}
+      %param{:name=>"allowFullScreen", :value=>"false"}
+      %param{:name=>"allowscriptaccess", :value=>"always"}
+      %embed{:src=>@prompt.attributes['right_choice_text'],
+             :type=>"application/x-shockwave-flash",
+             :allowscriptaccess=>"always", :allowfullscreen=>"false",
+             :width=>"200", :height=>"200"}
+
