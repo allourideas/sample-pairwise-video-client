@@ -5,7 +5,7 @@ class QuestionsController < ApplicationController
   end
 
   def destroy
-    @question = Question.find(params[:id]) rescue nil #quit throwing errors when i make a typo
+    @question = Question.find(params[:id])
     @question.destroy if @question
     redirect_to :action=>'index'
   end

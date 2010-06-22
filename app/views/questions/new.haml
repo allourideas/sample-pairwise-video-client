@@ -4,6 +4,8 @@
     %title New Question
   %body
     %h1 Create a New Question
+    %p To embed videos, copy <b>just</b> the URL in the embed code provided by youtube
+    %p e.g. http://www.youtube.com/v/4T_2mUbne38&hl=en_US&fs=1&
     - form_for :question, :url => { :action => :create } do |f|
       %p
         = f.label 'name' , "Name:"

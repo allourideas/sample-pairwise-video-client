@@ -1,6 +1,14 @@
 !!!
 %html
   %head
-    %title Choices
+    %title API Test
   %body
-    Yo
+    %h1 Choices
+    %table{:border => "1"}
+      %tr
+      - @fields.each do |k|
+        %th= k
+      - @choices.each do |c|
+        %tr
+        - @fields.each do |k|
+          %td= c.attributes[k]

@@ -39,6 +39,8 @@ ActionController::Routing::Routes.draw do |map|
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
   map.resources :questions, :has_many => :choices
+  map.resources :questions, :has_many => :prompts
+  map.resources :prompts
 
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'

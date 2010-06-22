@@ -1,6 +1,8 @@
 %h1 Vote!
 #prompt-content
+  %p= "Prompt id: #{@prompt_id}"
   #prompt-left
+    %p= "Choice no. #{@prompt.attributes['left_choice_id']}"
     %object{:width=>"200", :height=>"200"}
       %param{:name=>"movie", :value=>@prompt.attributes['left_choice_text']}
       %param{:name=>"allowFullScreen", :value=>"false"}
@@ -9,7 +11,13 @@
              :type=>"application/x-shockwave-flash",
              :allowscriptaccess=>"always", :allowfullscreen=>"false",
              :width=>"200", :height=>"200"}
+    = button_to 'Vote left', :action => "vote",
+    :question_id => @question_id,
+    :appearance_lookup => @appearance_lookup,
+    :direction => 'left',
+    :id => @prompt_id
   #prompt-right
+    %p= "Choice no. #{@prompt.attributes['right_choice_id']}"
     %object{:width=>"200", :height=>"200"}
       %param{:name=>"movie", :value=>@prompt.attributes['right_choice_text']}
       %param{:name=>"allowFullScreen", :value=>"false"}
@@ -18,4 +26,10 @@
              :type=>"application/x-shockwave-flash",
              :allowscriptaccess=>"always", :allowfullscreen=>"false",
              :width=>"200", :height=>"200"}
+    = button_to 'Vote right', :action => "vote",
+    :question_id => @question_id,
+    :appearance_lookup => @appearance_lookup,
+    :direction => 'right',
+    :id => @prompt_id
+
 
