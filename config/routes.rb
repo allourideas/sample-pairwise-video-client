@@ -42,7 +42,7 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :questions, :has_many => :prompts
   map.resources :prompts
 
+  map.root :action => :index, :controller => :questions
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
-
 end

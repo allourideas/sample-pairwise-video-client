@@ -2,19 +2,37 @@
 
 #prompt-content {
     position:relative;
-    width:50%;
+    width: 700px;
+    height: 400px;
 }
 
 #prompt-left {
     position:absolute;
-    width:200px;
+    width:300px;
     top:0;
     left:0;
 }
 
 #prompt-right {
-    width:200px;
+    width:300px;
     position:absolute;
     top:0;
     right:0;
+}
+
+#error-flash {
+    border: 1px solid #666;
+    background: #ffff99;
+}
+
+#vote-button {
+    
+    /* left: 40%; */
+    /* border: 1px solid #666; */
+    text-align: center;
+}
+
+.footer {
+    position:relative;
+    bottom:0;
 }

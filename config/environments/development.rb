@@ -18,7 +18,8 @@ config.action_mailer.raise_delivery_errors = false
 
 HOST = "localhost:3001"
 API_HOST = "http://localhost:3000"
-PAIRWISE_USERNAME = "dgarbuzov+dev@gmail.com"
-PAIRWISE_PASSWORD = "Dg153462"
+PAIRWISE_USERNAME = "pairwisetest@dkapadia.com"
+PAIRWISE_PASSWORD = "wheatthins"
 
 IP_ADDR_HASH_SALT = '2039d9ds9ufsdioh2394230' # need this?
+config.cache_classes = false

@@ -1,0 +1,9 @@
+%body
+  %h1 Submit a video:
+  - form_for :choice, :url => question_choices_path(params[:question_id]) do |f|
+    %p
+      = f.label "Youtube URL" , "URL:"
+      = f.text_field 'data', :size => 40
+    %p
+    %div
+      = submit_tag "Submit!"

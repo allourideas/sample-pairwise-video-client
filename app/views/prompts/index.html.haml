@@ -1,0 +1,49 @@
+%h1= "Vote on \"#{@question.attributes['name']}\""
+- if flash[:parse_failures] && (not flash[:parse_failures].empty?)
+  %table#error-flash 
+    %tr 
+      %td Notice: The following URLs are not valid Youtube links and were ignored:
+    - flash[:parse_failures].each do |url|
+      %tr
+        %td= "&bull; #{url}"
+  %br
+%p ... or submit your own video: 
+= button_to "Click here!", new_question_choice_path(@question), :method => :get
+#prompt-content
+  %p= "Prompt id: #{@prompt_id}"
+  #prompt-left
+    - addr = "http://www.youtube.com/v/#{@left_data}&amp;hl=en_US&amp;fs=1"
+    %p= "Choice no. #{@prompt.attributes['left_choice_id']}"
+    %object{:width=>"300", :height=>"300"}
+      %param{:name=>"movie", :value=>@prompt.attributes['left_choice_text']}
+      %param{:name=>"allowFullScreen", :value=>"false"}
+      %param{:name=>"allowscriptaccess", :value=>"always"}
+      %embed{:src=>addr,
+             :type=>"application/x-shockwave-flash",
+             :allowscriptaccess=>"always", :allowfullscreen=>"false",
+             :width=>"300", :height=>"300"}
+    %br
+    #vote-button
+      = button_to 'Vote left', :action => "vote",
+      :question_id => @question_id,
+      :appearance_lookup => @appearance_lookup,
+      :direction => 'left',
+      :id => @prompt_id
+  #prompt-right
+    - addr = "http://www.youtube.com/v/#{@right_data}&amp;hl=en_US&amp;fs=1"
+    %p= "Choice no. #{@prompt.attributes['right_choice_id']}"
+    %object{:width=>"300", :height=>"300"}
+      %param{:name=>"movie", :value=>addr}
+      %param{:name=>"allowFullScreen", :value=>"false"}
+      %param{:name=>"allowscriptaccess", :value=>"always"}
+      %embed{:src=>addr,
+             :type=>"application/x-shockwave-flash",
+             :allowscriptaccess=>"always", :allowfullscreen=>"false",
+             :width=>"300", :height=>"300"}
+    %br
+    #vote-button
+      = button_to "Vote right", :action => "vote",
+      :question_id => @question_id,
+      :appearance_lookup => @appearance_lookup,
+      :direction => 'right',
+      :id => @prompt_id

@@ -1,0 +1,14 @@
+%body
+  %h1 Create a New Question
+  %p To add seed videos, simply copy the URL of one or more the youtube pages into the "ideas" field with one URL on each line
+  %p e.g. http://www.youtube.com?v=4T_2mUbne38
+  - form_for :question, :url => { :action => :create } do |f|
+    %p
+      = f.label 'name' , "Name:"
+      = f.text_field 'name', :size => 40
+    %p
+      = "Ideas:"
+      %br
+      = f.text_area 'ideas', :cos => 85, :rows => 12
+    %div
+      = submit_tag "Press Button"

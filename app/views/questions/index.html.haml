@@ -1,0 +1,29 @@
+%body
+  %h1 Questions
+  - if flash[:parse_failures] && (not flash[:parse_failures].empty?)
+    %table#error-flash 
+      %tr 
+        %td Notice: The following URLs are not valid Youtube links and were ignored:
+      - flash[:parse_failures].each do |url|
+        %tr
+          %td= "&bull; #{url}"
+    %br
+  %table{:border => "1"}
+    %tr
+      %th Name
+      %th Updated At
+      %th # Votes
+      %th Id
+      %th{:colspan => 3} Actions
+    - @questions.each do |q|
+      %tr
+        %td= q.attributes["name"]
+        %td= q.attributes["updated_at"]
+        %td= q.attributes["votes_count"]
+        %td= q.attributes["id"]
+        %td= link_to 'results', question_choices_path(q)
+        %td= link_to 'vote', question_prompts_path(q)
+        %td= link_to 'delete', { :controller => :questions, :action => :destroy, :id => q}, :method => :delete
+    %tr{:border => 0}
+      %td{:colspan => 7, :align => "center"}= link_to("Add a new question!", new_question_path)
+

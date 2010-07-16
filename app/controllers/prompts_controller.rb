@@ -9,6 +9,8 @@ class PromptsController < ApplicationController
     @appearance_lookup = @question.attributes['appearance_id']
     @prompt_id = @question.attributes['picked_prompt_id']
     @prompt = Prompt.find(@prompt_id, :params => {:question_id => params[:question_id]})
+    @left_data = @prompt.attributes['left_choice_text']
+    @right_data = @prompt.attributes['right_choice_text']
   end
 
   def vote
@@ -26,9 +28,14 @@ class PromptsController < ApplicationController
                          :with_visitor_stats => true,
                          :visitor_identifier => request.session_options[:id]
                        })
-    logger.debug "Question id: #{question_id}"
     redirect_to(question_prompts_path(question_id))
     #next_prompt = Crack::XML.parse(vote.body)['prompt']
+  end
+
+  def create
+    @choice = Choice.new(params[:choice])
+    @choice.save
+    redirect_to :controller => :prompts, :action=> :index
   end
 end
 

@@ -9,5 +9,8 @@ class Choice < ActiveResource::Base
     prefix_options[:question_id]
   end
 
-  attr_accessor :name, :question_text, :question_ideas
+  def data
+    attributes['data']
+  end
+
 end
