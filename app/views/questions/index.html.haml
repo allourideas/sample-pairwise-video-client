@@ -14,7 +14,7 @@
       %th Updated At
       %th # Votes
       %th Id
-      %th{:colspan => 3} Actions
+      %th{:colspan => 2} Actions
     - @questions.each do |q|
       %tr
         %td= q.attributes["name"]
@@ -23,7 +23,6 @@
         %td= q.attributes["id"]
         %td= link_to 'results', question_choices_path(q)
         %td= link_to 'vote', question_prompts_path(q)
-        %td= link_to 'delete', { :controller => :questions, :action => :destroy, :id => q}, :method => :delete
     %tr{:border => 0}
-      %td{:colspan => 7, :align => "center"}= link_to("Add a new question!", new_question_path)
+      %td{:colspan => 6, :align => "center"}= link_to("Add a new question!", new_question_path)
 
