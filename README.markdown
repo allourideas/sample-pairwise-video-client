@@ -1,5 +1,9 @@
 This is a sample pairwise client for the public API.
 
+You can view some docs on installing here:
+
+<https://github.com/allourideas/pairwise-api/wiki/Using-The-API>
+
 Ownership
 -------------------
 
