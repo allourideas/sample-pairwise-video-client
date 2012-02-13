@@ -17,7 +17,7 @@ config.action_controller.perform_caching             = false
 config.action_mailer.raise_delivery_errors = false
 
 HOST = "localhost:3001"
-API_HOST = "http://api.allourideas.org"
+API_HOST = "http://localhost:4321"
 PAIRWISE_USERNAME = ""
 PAIRWISE_PASSWORD = ""
 
